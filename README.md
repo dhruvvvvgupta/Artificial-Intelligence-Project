@@ -63,6 +63,3 @@ Once setup is complete, run the Streamlit app:
 streamlit run app.py
 ```
 
-### 🎥 Live Demo
-
-[Watch a full demonstration of the project on Loom](https://www.loom.com/share/e5db890e46ff4dafaf24dbe694f42a1f?sid=4877805b-973f-4998-9612-3c6a2658814e)
