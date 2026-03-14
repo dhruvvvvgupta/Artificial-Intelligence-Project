@@ -5,10 +5,10 @@ This project is an end-to-end AI-powered platform that analyzes resumes, matches
 
 # Key Features
 
-- Resume Parsing:** Upload a PDF or DOCX resume and automatically extract skills, name, and email using spaCy.
-- Semantic Job Matching:** Instead of keywords, it uses sentence embeddings to find jobs based on contextual meaning.
-- AI-Powered Analysis:** Leverages a local LLM (Phi-3) to provide a detailed skill-gap analysis, identify strengths, and suggest a personalized learning plan.
-- 100% Open-Source & Local:** Runs entirely on your machine for free, with no API keys required.
+- **Resume Parsing:** Upload a PDF or DOCX resume and automatically extract skills, name, and email using spaCy.
+- **Semantic Job Matching:** Instead of keywords, it uses sentence embeddings to find jobs based on contextual meaning.
+- **AI-Powered Analysis:** Leverages a local LLM (Phi-3) to provide a detailed skill-gap analysis, identify strengths, and suggest a personalized learning plan.
+- **100% Open-Source & Local:** Runs entirely on your machine for free, with no API keys required.
 
 # Tech Stack
 
@@ -37,7 +37,10 @@ This project is an end-to-end AI-powered platform that analyzes resumes, matches
 
 2.  Create and activate a virtual environment:**
     ```bash
-    python3 -m venv .venv
+    python -m venv .venv
+    # On Windows:
+    .venv\Scripts\activate
+    # On macOS/Linux:
     source .venv/bin/activate
     ```
 
